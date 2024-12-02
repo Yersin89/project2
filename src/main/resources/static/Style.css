@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.block {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+}
+
+.block:hover {
+    background-color: azure;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+.iname{
+    color: dodgerblue;
+    font-size: 20px;
+}
+.idescription{
+    color: black;
+    font-size: 8px;
+}
+.iprice{
+    color: green;
+    font-size: 12px
+}
+.idetails{
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+}
+.idetails:active{
+    transform: scale(0.98);
+    background-color: greenyellow;
+}
+

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6 Blocks Layout</title>
+    <link rel="stylesheet" href="/Style.css">
+</head>
+<body>
+<h1 class="header">Electronic shop items</h1>
+<div class="container">
+    <div class="block">
+        <h1 class="iname">
+           <span th:text="${item1.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item1.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item1.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+    <div class="block">
+        <h1 class="iname">
+            <span th:text="${item2.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item2.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item2.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+    <div class="block">
+        <h1 class="iname">
+            <span th:text="${item3.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item3.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item3.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+    <div class="block">
+        <h1 class="iname">
+            <span th:text="${item4.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item4.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item4.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+    <div class="block">
+        <h1 class="iname">
+            <span th:text="${item5.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item5.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item5.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+    <div class="block">
+        <h1 class="iname">
+            <span th:text="${item6.name}"></span>
+        </h1>
+        <h1 class="idescription">
+            <span th:text="${item6.description}"></span>
+        </h1>
+        <h1 class="iprice">
+            <span th:text="${item6.price}"></span>$
+        </h1>
+        <button class="idetails">DETAILS</button>
+    </div>
+</div>
+</body>
+</html>
